@@ -37,7 +37,6 @@ end
 
 # Define your play method below
 def play(board)
-  loop do turn(board)
-  break if position_taken?(board, 8)
+  turn.each do |board|
   end
 end
